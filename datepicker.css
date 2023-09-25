@@ -1,0 +1,49 @@
+.datepicker {
+  background: #fff;
+  border: 1px solid #ccc;
+  width: 300px;
+  padding: 10px;
+}
+
+.datepicker-header {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.datepicker-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+.day {
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.current-month {
+  background: #3498db;
+  color: #fff;
+}
+
+.other-month {
+  color: #ccc;
+}
+
+.day:hover {
+  background: #f2f2f2;
+}
+
+.selected-day {
+  background: #e74c3c;
+  color: #fff;
+}
